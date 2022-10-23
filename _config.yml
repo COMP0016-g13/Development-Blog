@@ -1,4 +1,9 @@
 title: Development Blog - Group 13
-description: Development blog COMP0016 Group 13 - Partnered with St Margaret's Hospice
+description: >
+  Development blog COMP0016 Group 13 - Partnered with St Margaret's Hospice
+  Team Members: Waseh khan, Gustas Pladis, Tushann Arya
+
+baseurl: "/blog"
+url: "https://comp0016-g13.github.io/Development-Blog/"
 
 theme: minima
