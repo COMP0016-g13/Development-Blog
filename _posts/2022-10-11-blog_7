@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Week 9 & 10 - Literature Review"
+date: 2022-12-11
+---
+
+## Overview:
+
+This week we began looking into carrying out initial data analysis on the clients database.
+
+## Data provided:
+
+We had been provided tables with the following titles:
+
+![table](/Development-Blog/assets/Blog7/table.png)
+
+Out first task was to delegate certain tables to each member to review over and collect a list of questions surrounding the table themselves, any column headings or fields for each table. We will then ask for clarifications on these from our client
+
+## Data Analysis:
+
+We began querying each table in Jupyter notebook in order to identify any missing/incomplete fields and to begin identifying how to adjust/create new tables which would summarise/support us for our application.
+
+We were able to distinguish that the anonymous_donors table could be ignored as it would not be incorporated in our application.
+
+Tables such as contacts, contacts_sent and contacts_sent_and_donations_recieved could potentially be combined into a single table - therefore simplifying the process of querying.
+
+## Next Steps:
+
+We have gathered an initial and basic understanding of the data we are working with however we will clarify all our questions and concerns with our client and share our initial ideas for profiling in order to gain feedback
