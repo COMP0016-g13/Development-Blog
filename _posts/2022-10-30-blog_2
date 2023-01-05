@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Week 2 - Meeting Our Client and HCI: Sketches & Personas"
+date:   2022-10-30
+---
+
+## Overview:
+
+This week we had our first meeting with the client - as groups had been organised late we used this initial meeting to firstly gain a broader insight into the project and then to complete a semi-structured interview in order to gather our MoSCoW requirements.
+
+We then used the information to create personas and initial sketches as well as beginning our prototype.
+
+## Meeting the Client & project:
+
+We had our first 20 minute introductory call with our clients, where they were able to provide us with a deeper understanding of the project. The main idea of our project focusses on the insights that donor data holds. During the semi-structured the interview, we were able to ask questions to solidify our MoSCoW requirements.
+
+## Motivation:
+
+St Margarets Hospice, currently has no system which analyses the data it has collected, but they wish to be more strategic with their fundraising. They have a wide ranging amount of data from their donors and believe there are a number of patterns which could be explored and provide real value, in order to increase responsiveness from supporters and to highlight events/campaigns which would be of higher interest to certain individuals.
+
+Certain features were particularly highlighted including: representing donor journey’s as Maps (whereby a journey includes different points in time where the donor had interacted/communicated with the hospice in any way) starting from an initial source.  Clustering donors who have similar interests/ donation journey’s. Developing a model to predict future donations.
+
+The users of the application will involve analysts and fundraisers; whom are not highly technical and would therefore prefer a simple UI for the application to clearly highlight any trends and present useful information of its donors. 
+
+## Solution:
+
+A web application, for authorised staff to log into. All the data will be securely accessible from St Margaret’s database as it will contain confidential information of its donors. A donation journey map, can be viewed for each users - clearly showing when and what form of interaction was made as well as map predicting what type and when an event or particular communication should be shared with each donor. Backend will involve analysing patterns in the data, in order to successfully implement useful predictions as well as clustering supporters with similar interests or donor journeys. These clusters will then be viewed as profiles, where multiple users will correspond to a single profile. A profile will contain an overall summary of the users within it i.e. highlighting the similarities which has resulted in this cluster e.g. if they all respond to similar event types, have similar locations or attend events in a particular location. 
+
+## Sketches:
+### Sketch 1:
+We created sketches of our initial designs on Goodnotes 5. Our initial version contained a login page for staff, as well as an initial home page displaying all donors, with aa fixed sidebar used for navigation between this page, a Search page (list all donors who contain anything related to the search entry) and a Profiles page (Display all profiles that have been created from clustering of donors). Each donor can be selected and the user will be taken to another page displaying all information of this individual - including the donor journey map, patterns relating to this single user, the profile it belongs to and the prediction of future donations.
+
+**INSERT**
+
+### Sketch 2:
+Our second design is fairly similar to our original however it simplifies the UI and reduces the number of pages that a user can transfer between. The sidebar, has been simply removed and a drop down menu added to the top navigation bar - which will allow the suer to switch between the list of all donors to the collection of profiles and the search functionality will be added to both of these. The individual donor pages now involves a pop-up which will appear when clicking on a certain point in the journey map and the profile information reduced to prevent repetition of text as all relevant profile information can be viewed on the profile page. This page includes a common journey that users in this profile might take as well as a clear list of similarities they have which has resulted in this cluster.
+
+
+**INSERT**
+
+## Personas:
+
+Using the information we received this week - we were able to gain a more concrete understanding of who the users are and what it is they are looking for. Hence, we were able to construct what a typical user would look like in the below personas.
+
+
+**INSERT**
+
+## Next Steps:
+
+We will now utilise the upcoming final week before reading week to share our design progress with the clients for feedback and confirm our MoSCoW requirements to be finalised as well as complete our prototypes for the HCI section of this module.
